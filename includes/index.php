@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Import google fonts -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Chargement du CSS perso -->
+    <link rel="stylesheet" href="style.css">
+    <title>Festival de film</title>
+</head>
+
+<body>
+    <!-- navbar -->
+   <?php include('header.inc.php'); ?>
+    
+    <!-- Header / Titre  -->
+    <section class="header header-filter valign-wrapper center">
+        <div class="container">
+            <h1 class="header-title white-text">Les réservations</h1>
+        </div>
+    </section>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+                <h2 class="montserrat">Préinscrivez-vous !</h2>
+                <p>Bien que l’accès aux projections sera gratuit et ouvert à tous, pensez à vous préinscrire afin que nous vous recevions au mieux. <br>
+                Indiquez ci-dessous quelle(s) séance(s) vous intéresse et combien vous serez pour chacune d’elles.</p>
+        </div>
+        <form action="#">
+            <div class="row"> <!-- nom prénom-->
+                <div class="col s12 m6">
+                        <label for="nom" class="montserrat">Votre nom (obligatoire)</label>
+                        <input id="nom" type="text" class="validate">
+                        <label for="email" class="montserrat">Votre email (obligatoire)</label>
+                        <input id="email" type="email" class="validate">
+                </div>
+            </div>
+            <div class="row"> <!-- informations titre-->
+                <h6 class="montserrat">Sélectionnez un ou plusieurs films en précisant le nombre de personnes (obligatoire)</h6>
+            </div>
+            <div class="row"> <!-- Film 1-->
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" />
+                        <span>The dark knight</span><span class="montserrat"> 05/08/2020 - 18:00h à 20:00h</span>
+                    </label>
+                </p>
+                <div class="col s12 m3 range-div">    <!-- Le range -->
+                    <p class="range-field">
+                        <input type="range" id="test5" min="0" max="10" />
+                    </p>
+                </div>
+            </div> 
+        </form>
+                
+        
+    </div>
+    <!-- Footer -->
+    <section class="section section-follow teal lighten-1 white-text">
+    <div class="row center">
+        <div class="col s12 m4">
+                <h4>Association Films de Plein Air</h4>
+                <p class="small-p">L'association a pour but de faire découvrir ou redécouvrir une sélection de films d'auteurs à tous, petits et grands, familles, groupes d'amis, célibataires, ... Avec une empreinte éco-responsable, le Festival aura lieu au Parc Monceau, du 5 au 8 août 2017, de 18h à minuit. Des stands de nourriture seront présents pour ravir vos papilles.</p>
+        </div>
+        <div class="col s12 m4">
+            <h4>Suivez nos aventures !</h4>
+            <p class="montserrat">SUIVEZ-NOUS SUR :</p>
+            <a href="#" class="white-text">
+                <i class="fab fa-facebook-square fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+                <i class="fab fa-instagram fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+                <i class="fab fa-youtube fa-4x"></i>
+            </a>
+            <a href="#" class="white-text">
+                <i class="fab fa-pinterest-square fa-4x"></i>
+            </a>
+        </div>
+        <div class="col s12 m4">
+                <h4>Informations utiles</h4>
+                <h6 class="montserrat">Adresse :</h6>
+                <p class="small-p">Parc Monceau 35 Boulevard de Courcelles 75000 Paris</p>
+                <h6 class="montserrat">Siège de l'association :</h6>
+                <p class="small-p">15 rue Rivoli 75004 Paris</p>
+        </div>
+    </div>
+    </section>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>

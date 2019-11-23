@@ -1,0 +1,167 @@
+body {
+    background-color: #f2f2f2;
+    --height-header: 25rem;
+    font-family: "Roboto Slab","Times New Roman",serif;
+}
+/* 
+=============== 
+GENERAL 
+=============== */
+.brand-logo {
+    font-size: 1.1rem !important;
+}
+p {
+    font-size: 1.3rem !important;
+}
+.small-p {
+    font-size: 1rem !important;
+}
+
+@media screen and (max-width: 600px) { /* pour les écrans de téléphone */
+    .brand-logo { /* fix quand on reduit, ça ne va pu se chevaucher vers le bas */
+        font-size: 1.1rem !important;
+        width: 100% !important;
+        text-align: center;
+        margin-left: 20px;
+    }
+    #infoH1 {
+        font-size: 2rem;
+    }
+    .row.valign-wrapper { /* fix du non-resonsive quand on ajoute .valign wrapper a une div */
+        display: inherit;
+    } 
+}
+
+@media screen and (max-width: 992px) { /* pour les tablettes */
+    .brand-logo{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.section {
+    padding-top: 0;
+}
+
+.montserrat, .btn {
+    font-family: "Montserrat", "Roboto Slab", "Times New Roman", serif;
+    text-transform: uppercase;
+}
+
+
+/* 
+=============== 
+HEADER 
+=============== */
+.header {
+    background: url(img/film_parc.jpg);
+    height: var(--height-header);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-filter::before { /* filtre noir */
+    position: absolute;
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: var(--height-header);
+    display: block;
+}
+.header-title {
+    position: relative; /* pour que le texte soit au dessus */
+}
+/* 
+=============== 
+SLIDER 
+=============== */
+
+.slider .slides li img {
+    background-attachment: fixed !important;
+}
+
+.imagesBlurred {
+    filter: blur(5px);
+}
+
+.btn-header {
+    margin-top: 20px;
+}
+
+/* 
+=============== 
+CARDS - ACTUALITES
+=============== */
+
+
+/*
+=============== 
+INFOS 
+=============== */
+
+#infos {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.55), 
+        rgba(0, 0, 0, 0.55)
+        ), url(img/Parc-de-Noisiel.jpg);
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.infoParagraphe {
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+#infoH1 {
+    padding: 5rem 10rem 0 10rem;
+}
+
+/* 
+=============== 
+CONTACT 
+=============== */
+
+#contactText{
+    margin-right: 3rem;
+    text-align: center;
+}
+
+#form {
+    margin-top: 50px;
+}
+
+.card-contact{
+    padding: 50px;
+}
+
+.card-title-contact{
+    font-size: 3rem !important;
+}
+.premiereligne {
+    height: 100%;
+}
+
+
+/* 
+=============== 
+FOLLOW 
+=============== */
+.section-follow .fa-4x {
+    margin: 0px 10px 0px 10px;
+}
+/* 
+=============== 
+PAGE FILMS 
+ ============== */
+.img-film {
+    width: 100%;
+}
