@@ -16,6 +16,21 @@ J'ai besoin de communiquer sur le festival en amont et j'ai besoin pour cela d'u
 L'accès aux projections sera gratuit et ouvert à tous mais je souhaite que le public puisse se préinscrire pour estimer le nombre de personnes présentes chaque soir.
 Je souhaite avoir une adresse professionnelle en .com ou en .org : je suis preneuse de conseils sur le meilleur choix pour l'adresse et je ne souhaite pas m'occuper de l'hébergement.*
 
-# Livrables attendus
+## Livrables attendus
 - Document de spécification technique du projet (PDF)
 * Code source complet du projet (HTML/CSS et autres fichiers nécessaires, zippés)
+
+## Soutenance
+A l'oral en condition réelle, vous présenterez votre projet. Votre mentor jouera le rôle du client.
+
+La soutenance se déroule comme suit :
+* La présentation de votre cahier des charges et votre prototype du site en HTML et CSS : 15-20 minutes
+* Un moment questions/réponses : 10 minutes
+Votre mentor reprendra son rôle de mentor à la fin de votre "rendez-vous avec le client" pour débriefer avec vous pendant 5 minutes.
+
+## Compétences évaluées
+
+* Lister les fonctionnalités demandées par un client
+* Analyser un cahier des charges
+* Rédiger les spécifications détaillées du projet
+* Choisir une solution technique adaptée parmi les solutions existantes si cela est pertinent
