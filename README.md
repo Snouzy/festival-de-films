@@ -16,6 +16,6 @@ J'ai besoin de communiquer sur le festival en amont et j'ai besoin pour cela d'u
 L'accès aux projections sera gratuit et ouvert à tous mais je souhaite que le public puisse se préinscrire pour estimer le nombre de personnes présentes chaque soir.
 Je souhaite avoir une adresse professionnelle en .com ou en .org : je suis preneuse de conseils sur le meilleur choix pour l'adresse et je ne souhaite pas m'occuper de l'hébergement.*
 
-#Livrables attendus
-..*Document de spécification technique du projet (PDF)
-..*Code source complet du projet (HTML/CSS et autres fichiers nécessaires, zippés)
+# Livrables attendus
+- Document de spécification technique du projet (PDF)
+* Code source complet du projet (HTML/CSS et autres fichiers nécessaires, zippés)
